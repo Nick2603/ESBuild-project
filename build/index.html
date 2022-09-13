@@ -1,0 +1,24 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ESbuild Project</title>
+        <link href=bundle.index-A6A2ED62.css rel="stylesheet">
+      </head>
+      <body>
+        <div id="root"></div>
+        <script src=bundle.index-PIKZBXYP.js></script>
+        <script>
+          const eventSource = new EventSource("http://localhost:3000/subscribe");
+          eventSource.onopen = function() {console.log("open")};
+          eventSource.onerror = function() {console.log("error")};
+          eventSource.onmessage = function() {
+            window.location.reload();
+          };
+        </script>
+      </body>
+    </html>
+  

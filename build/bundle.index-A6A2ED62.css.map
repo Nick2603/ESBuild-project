@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/index.css", "../src/second.css"],
+  "sourcesContent": ["* {\n  color: brown;\n}\n", "* {\n  font-size: 80px;\n}\n"],
+  "mappings": ";AAAA;AACE;AAAA;;;ACDF;AACE;AAAA;",
+  "names": []
+}

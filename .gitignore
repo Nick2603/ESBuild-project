@@ -1,0 +1,27 @@
+node_modules/
+
+*.ini
+*.dat
+*.temp.*
+*.dump
+.idea
+
+# KDE directory preferences
+.directory
+
+### macOS ###
+.DS_Store
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Local History for Visual Studio Code
+.history/
+.history
+
+coverage/*
+maps/*
